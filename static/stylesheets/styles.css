@@ -1,0 +1,48 @@
+.slide-container {
+    position: relative;
+}
+
+.text-block {
+    position: absolute;
+    color: black;
+    font-weight: bold;
+    font-family: "gesinn-black", sans-serif;
+}
+
+.hello-text {
+    top: 630px;
+    left: -180px;
+    font-size: 60px;
+}
+
+.slide-2-text {
+    top: 30px;
+    left: -180px;
+    font-size: 50px;
+}
+
+.phpcs-image {
+    position: relative;
+    top: 280px;
+    right: -380px;
+}
+
+.top-right-image,
+.bottom-left-image {
+    position: absolute;
+    z-index: 1000;
+}
+
+.top-right-image {
+    right: -280px;
+    top: -15px;
+    max-width: 100%;
+    height: auto;
+}
+
+.bottom-left-image {
+    left: -300px;
+    top: 400px;
+    max-width: 20%; 
+    height: auto;
+}
