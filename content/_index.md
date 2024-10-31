@@ -12,9 +12,9 @@ outputs = ["Reveal"]
 
 {{< slide background="#ffffff" >}}
 <div class="slide-container">
-{{< second-slide >}}
-{{< background-images >}} 
-{{< phpcs >}}   
+    {{< second-slide >}}
+    {{< background-images >}} 
+    {{< phpcs >}}   
 </div>
 
 ---
