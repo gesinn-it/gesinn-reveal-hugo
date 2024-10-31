@@ -1,63 +1,37 @@
++++ 
+title = "SMW-con-gesinn.it" 
+outputs = ["Reveal"] 
 +++
-title = "SMW-con-gesinn.it"
-outputs = ["Reveal"]
-+++
 
-{{< slide id="hello" 
-    background="#FFF" 
-    background-image="/images/main.png" 
-    transition="zoom" 
-    transition-speed="fast" >}}
-<div style="position: absolute; top:400px; left: -200px; color: white; font-size: 80px; font-weight: bold;">
-   {{% fragment %}} gesinn.it! {{% /fragment %}}
+{{< slide id="hello" background-image="images/main.png" >}}
+<div class="slide-container">
+    {{< background-images >}} 
 </div>
 
 ---
 
-{{< slide transition="zoom" transition-speed="fast" background-image="/images/blue_background.png" >}}
-# <span style="color: black;">Hello SMW!</span>
-
-<div>
-This is my second slide.
+{{< slide background="#ffffff" >}}
+<div class="slide-container">
+{{< second-slide >}}
+{{< background-images >}} 
+{{< phpcs >}}   
 </div>
 
-<div style="color:black;">
-{{< frag c="One" >}} -
-{{< frag c="Two" >}} -
-{{< frag c="Three" >}}
-</div>
+---
 
+{{< slide background="#21130d" >}}
+{{< background-images >}} 
 
 ---
 
-{{< slide background-image="/images/blue_background.png" >}}
-# Test Slide
-
-Here is an image on the slide:
-
-![This is a test picture:](/images/Picture1.png)
+{{< slide background="#21130d" >}}
+{{< background-images >}} 
 
 ---
 
-{{< slide background-image="/images/black_background.png" >}}
-# Slide No 4
-
-[Jump to the first slide!](#hello)
+{{< slide background="#17a2b8" >}}
+{{< background-images >}} 
 
 ---
 
-{{< slide background="#333" transition="fade" transition-speed="slow" background-image="/images/white_background.png" >}}
-# 
-<section data-auto-animate>
-  <h3 style="color:black"> Test auto-animate </h3>
-  <div data-id="box" style="height: 50px; background: salmon; text-align: center;">Test auto-animate function</div>
-</section>
-<section data-auto-animate>
-  <h3 style="color:black"> Test auto-animate </h3>
-  <div data-id="box" style="display: flex; justify-content: center; align-items: center; height: 100px; width: 600px; margin: 0 auto; background-color: black; color: white; font-size: 30px; border-radius: 10px;">Test auto-animate function</div>
-</section>
-
----
-
-{{< slide background-image="/images/white_background.png" >}}
-# <span style="color: black;">Slide No 6</span>
+{{< slide id="goodbye" background-image="images/last.png" >}}
